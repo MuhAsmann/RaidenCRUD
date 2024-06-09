@@ -10,7 +10,11 @@ SUPABASE_API_URL: https://api.supabase.com
 SUPABASE_API_BASE_PATH: 
 SUPABASE_PUBLIC_URL: https://axirknptciirtxlhzvgv.supabase.co
 
-SERVER_HOST: 127.0.0.1
+# set your ip address to allow access to the database
+# example:
+# SERVER_HOST: 192.168.18.20
+# default is localhost
+SERVER_HOST: 172.0.0.1
 SERVER_PORT: 8002
 
 ENVIRONMENT: development

@@ -18,7 +18,7 @@ func RegisterRoute(server *raiden.Server) {
 		},
 		{
 			Type:       raiden.RouteTypeRpc,
-			Path:       "/hello/{name}",
+			Path:       "/movie",
 			Methods:    []string{fasthttp.MethodPost},
 			Controller: &controllers.InsertMovieRPCController{},
 		},
